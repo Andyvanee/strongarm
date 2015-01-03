@@ -1,7 +1,7 @@
 * {
   font-weight: 300 !important;
   font-family: 'Fira Sans OT' !important;
-  font-size: 18px !important;
+  font-size: 15px !important;
   line-height: 1.6em !important;
   letter-spacing: 0.01em;
 }
@@ -9,7 +9,7 @@
 *:hover,
 *:focus,
 *:active {
-  color: #eee8d5 !important;
+  color: #363636 !important;
   border: none !important;
   border-image: none !important;
   text-shadow: none !important;
@@ -30,7 +30,7 @@ html,
 div,
 article,
 section {
-  background-color: #002b36 !important;
+  background-color: #ffffff !important;
 }
 p,
 a,
@@ -51,15 +51,15 @@ h6 {
 }
 a,
 a * {
-  color: #268bd2 !important;
+  color: #e34730 !important;
   text-decoration: underline !important;
 }
 a:hover,
 a *:hover {
-  color: #8abad4 !important;
+  color: #8d3f33 !important;
 }
 a:visited {
-  color: #3426d2 !important;
+  color: #e3bf30 !important;
 }
 input,
 select,
@@ -69,8 +69,8 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-  background-color: #00222e !important;
-  border: 1px solid #183e46 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb !important;
   min-height: 1.4em;
 }
 h1,
@@ -83,28 +83,28 @@ h6 {
   font-weight: 700 !important;
 }
 h1 {
-  font-size: 45px !important;
-  line-height: 45px !important;
-}
-h2 {
-  font-size: 37.800000000000004px !important;
+  font-size: 37.5px !important;
   line-height: 38px !important;
 }
-h3 {
-  font-size: 28.8px !important;
-  line-height: 29px !important;
+h2 {
+  font-size: 31.5px !important;
+  line-height: 32px !important;
 }
-h4 {
-  font-size: 23.400000000000002px !important;
+h3 {
+  font-size: 24px !important;
   line-height: 24px !important;
 }
+h4 {
+  font-size: 19.5px !important;
+  line-height: 20px !important;
+}
 h5 {
-  font-size: 18px !important;
-  line-height: 18px !important;
+  font-size: 15px !important;
+  line-height: 15px !important;
 }
 h6 {
-  font-size: 16.2px !important;
-  line-height: 17px !important;
+  font-size: 13.5px !important;
+  line-height: 14px !important;
 }
 code,
 pre,
@@ -113,7 +113,7 @@ code *,
 pre *,
 kbd * {
   font-family: 'Source Code Pro' !important;
-  background-color: #0c343e !important;
+  background-color: #f5f5f5 !important;
 }
 img {
   display: none !important;
