@@ -1,0 +1,73 @@
+* {
+  font-weight: @font-weight !important;
+  font-family: @font-family !important;
+  font-size: @font-size !important;
+  line-height: 1.6em !important;
+  letter-spacing: 0.01em;
+}
+
+*, *:hover, *:focus, *:active {
+  color: @color !important;
+  background-color: @background-color !important;
+  border: none !important;
+  border-image: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  &::before, &::after { visibility: hidden; }
+}
+
+a, a * {
+  color: @link-color !important;
+  text-decoration: underline !important;
+}
+
+a:hover, a *:hover {
+  color: mix(@link-color, @color, 50%) !important;
+}
+
+a:visited {
+  color: spin(@link-color, 40) !important;
+}
+
+input, select, textarea, button {
+  &, &:focus {
+    background-color: mix(@background-color, @color, 105%) !important;
+    border: 1px solid mix(@background-color, @color, 90%) !important;
+    min-height: 1.4em;
+  }
+}
+
+.images(@switch) when (@switch = false) {
+  img { display: none !important; }
+}
+
+.background-images(@switch) when (@switch = false) {
+  *, *:focus, *:active, *::before, *::after { background-image: none !important; }
+}
+
+.iframes(@switch) when (@switch = false) {
+  iframe { display: none !important; }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  &, & * {
+    font-family: @heading-font !important;
+    font-weight: @heading-font-weight !important;
+    line-height: 1.3em !important;
+  }
+}
+
+h1 { font-size: 42px !important; }
+h2 { font-size: 36px !important; }
+h3 { font-size: 30px !important; }
+h4 { font-size: 22px !important; }
+h5 { font-size: 18px !important; }
+h6 { font-size: 16px !important; }
+
+code, pre, kbd {
+  &, & * {
+    font-family: @code-font !important;
+    background-color: mix(@background-color, @color, 95%) !important;
+  }
+}

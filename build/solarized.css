@@ -1,0 +1,108 @@
+* {
+  font-weight: 300 !important;
+  font-family: 'Helvetica Neue' !important;
+  font-size: 18px !important;
+  line-height: 1.6em !important;
+  letter-spacing: 0.01em;
+}
+*,
+*:hover,
+*:focus,
+*:active {
+  color: #eee8d5 !important;
+  background-color: #002b36 !important;
+  border: none !important;
+  border-image: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+*::before,
+*:hover::before,
+*:focus::before,
+*:active::before,
+*::after,
+*:hover::after,
+*:focus::after,
+*:active::after {
+  visibility: hidden;
+}
+a,
+a * {
+  color: #268bd2 !important;
+  text-decoration: underline !important;
+}
+a:hover,
+a *:hover {
+  color: #8abad4 !important;
+}
+a:visited {
+  color: #3426d2 !important;
+}
+input,
+select,
+textarea,
+button,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  background-color: #00222e !important;
+  border: 1px solid #183e46 !important;
+  min-height: 1.4em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 *,
+h2 *,
+h3 *,
+h4 *,
+h5 *,
+h6 * {
+  font-family: 'Roboto Condensed' !important;
+  font-weight: 700 !important;
+  line-height: 1.3em !important;
+}
+h1 {
+  font-size: 42px !important;
+}
+h2 {
+  font-size: 36px !important;
+}
+h3 {
+  font-size: 30px !important;
+}
+h4 {
+  font-size: 22px !important;
+}
+h5 {
+  font-size: 18px !important;
+}
+h6 {
+  font-size: 16px !important;
+}
+code,
+pre,
+kbd,
+code *,
+pre *,
+kbd * {
+  font-family: 'Source Code Pro' !important;
+  background-color: #0c343e !important;
+}
+img {
+  display: none !important;
+}
+*,
+*:focus,
+*:active,
+*::before,
+*::after {
+  background-image: none !important;
+}
+iframe {
+  display: none !important;
+}
